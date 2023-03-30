@@ -8,7 +8,7 @@ The repository is structured as follows:
 
 - `auth`: Authentication service written in TypeScript with a MongoDB database.
 - `client`: Client service (Next.js application) written in JavaScript.
-- `common`: Shared library between the services (except for the client) written in TypeScript.
+- `common`: Shared library between the services (except for the client) written in TypeScript. This library includes common functionality that is shared between the different services, such as event models, validation logic, and utility functions. The common library is also published to npm as a separate package for easy reuse in other services.
 - `expiration`: Expiration service, a worker service written in TypeScript with a Redis database.
 - `infra/k8s`: Kubernetes configuration files.
 - `nats-test`: A small project (playground) built to test the nats-streaming-service. This project is unrelated to the repository.
