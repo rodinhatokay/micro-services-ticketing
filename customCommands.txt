@@ -1,0 +1,4 @@
+1. create new secret in k8s cluster (setting jwt_key secret key)
+kubectl create secret generic jwt-secret --from-literal JWT_KEY=asdf
+
+2. in order to set up in k8s you need to build image and push it to docker hub so that skaffold download it

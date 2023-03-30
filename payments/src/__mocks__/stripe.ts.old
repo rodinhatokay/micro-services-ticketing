@@ -1,0 +1,6 @@
+// mocking stripe is not good practice its better to test and their testing api
+export const stripe = {
+	charges: {
+		create: jest.fn().mockResolvedValue({}),
+	},
+};
