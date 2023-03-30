@@ -1,8 +1,6 @@
 # Microservices Study
 
-This repository contains a set of microservices built to study microservices architecture using Kubernetes, Docker, events, and other related technologies.
-It also includes a client application built with Next.js, and a shared common library published to npm.
-Skaffold is used to start up everything.
+This repository is a collection of microservices built using various technologies, such as Docker, Kubernetes, NextJS, and more. The repository contains a client service, three different microservices, a shared library, and Kubernetes configurations.
 
 ## Project Structure
 
