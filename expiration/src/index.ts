@@ -29,7 +29,7 @@ const start = async () => {
 		process.on("SIGINT", () => natsWrapper.client.close());
 		process.on("SIGTERM", () => natsWrapper.client.close());
 
-		console.log("Connected to MongoDb");
+		console.log("Connected to MongoDb!");
 		new OrderCreatedListener(natsWrapper.client).listen();
 	} catch (err) {
 		console.error(err);
